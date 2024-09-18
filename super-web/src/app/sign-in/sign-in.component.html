@@ -3,7 +3,7 @@
     <h1>ErCreations </h1>
     <div class="cont">
       <div class="form sign-in">
-        <h2>Welcome back!</h2>
+        <h2><em>Welcome back!</em></h2>
         <label>
           <span>Email</span>
           <input type="email" />
@@ -12,7 +12,7 @@
           <span>Password</span>
           <input type="password" />
         </label>
-        <p class="forgot-pass">Forgot password?</p>
+        <p (click)="openConfirmDialog()" class="forgot-pass">Forgot password?</p>
         <button type="button" class="submit">Sign In</button>
         <p><strong>New member?</strong></p>
         <p>Click the button below to Sign Up</p>
