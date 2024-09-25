@@ -7,6 +7,10 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ForgotDialogComponent } from './forgot-dialog/forgot-dialog.component';
 import { ShoppingCartsComponent } from './shopping-carts/shopping-carts.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 
 
 export const routes: Routes = [
@@ -20,7 +24,11 @@ export const routes: Routes = [
             
 {path: 'dashboard', component: DashboardComponent},
 {path: 'widgets' , component: WidgetsComponent},
-{path: 'shoppingcarts', component: ShoppingCartsComponent}
+{path: 'shoppingcarts', component: ShoppingCartsComponent},
+{path: 'aboutus', component: AboutUsComponent},
+{path: 'contactus', component: ContactUsComponent},
+{path: 'faqs', component: FaqsComponent},
+{path: 'resetpassword', component: ResetPasswordComponent}
         ]
     }
 ];

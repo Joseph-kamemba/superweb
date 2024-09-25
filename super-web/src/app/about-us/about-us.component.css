@@ -1,0 +1,108 @@
+.about-title {
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.about-text{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    align-items: center;
+
+}
+.about-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-content{
+    text-align: center;
+    width: 75vw;
+  }
+  .container-fluid1 {
+    margin-top: 20px;
+  }
+  
+  .container-fluid {
+    padding: 0;
+    margin:0;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+  
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: aquamarine; 
+  }
+  .row.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .description-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .card-title {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: black;
+    align-items: center;
+    padding-top: 180px;
+  }
+  .product-card .card-img-top {
+    transition: opacity 0.5s ease-in-out; /* Smooth transition effect */
+  }
+  
+  
+  .card-img-top {
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-5 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .services-available {
+    font-weight: bold;         /* Makes the text bold */
+    text-align: center;        /* Centers the heading */
+    color: black;              /* Sets the text color to black */
+    font-size: 2.5rem;         /* Adjusts font size for impact */
+    margin: 20px 0;            /* Adds margin for spacing around the heading */
+    padding: 0 15px;           /* Adds padding to ensure some space around the text */
+  }
+  
+  
+ 

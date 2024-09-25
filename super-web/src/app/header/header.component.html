@@ -1,24 +1,62 @@
-<div class="bg-maroon text-base sm:text-lg 
-            md:text-xl lg:text-2xl xl:text-3xl">
+<div class="bg-gray text-base sm:text-lg 
+            md:text-xl lg:text-2xl xl:text-3xl fixed top-0 left-0 w-full z-50">
 <header class="text-white body-font">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <img src="/images/identity.jpg" alt="Icon" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full">
+        <img src="/images/identity.jpg" alt="Icon" class="w-10 h-10 text-white p-2 bg-gray-500 rounded-full">
 
         <span class="ml-3 text-xl">Creations</span>
       </a>
       <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center   
       space-x-10">
-        <a class="hover:text-gray-900">Home</a>
-        <a class="hover:text-gray-900">About</a>
-        <a class="hover:text-gray-900">Shop</a>
-        <a class="hover:text-gray-900">News</a>
-        <a class="hover:text-gray-900">Pages</a>
-        <a class="hover:text-gray-900">Support</a>
-        <span>+254728 611 586</span>
+          <nav class="sub-nav">
+          <a class="text-black hover:text-gray-900" id="pagesDropdown" role="button">Home</a>
+          <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <li><a class="dropdown-item" href="#">Home Brands</a></li>
+            <li><a class="dropdown-item" href="#">Home Designs</a></li>
+            <li><a class="dropdown-item" href="#">Home Prints</a></li>
+            <li><a class="dropdown-item" href="#">Home Stickers</a></li>
+          </ul>
+        </nav>
+        <nav class="sub-nav">
+          <a class="text-black hover:text-gray-900" id="pagesDropdown" role="button">Shop</a>
+          <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <li><a class="dropdown-item" href="#">No</a></li>
+            <li><a class="dropdown-item" href="#">Yes</a></li>
+            <li><a class="dropdown-item" href="#">Maybe</a></li>
+          </ul>
+        </nav>
+        <nav class="sub-nav">
+          <a class="text-black hover:text-gray-900" id="pagesDropdown" role="button">News</a>
+          <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <li><a class="dropdown-item" href="#">Cups/Mugs</a></li>
+            <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+            <li><a class="dropdown-item" href="#">Stickers</a></li>
+            <li><a class="dropdown-item" href="#">Hoodies</a></li>
+          </ul>
+        </nav>
+        <nav class="sub-nav">
+          <a class="text-black hover:text-gray-900" id="pagesDropdown" role="button">Pages</a>
+          <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <li><a class="dropdown-item" routerLink="/aboutus">About Us</a></li>
+            <li><a class="dropdown-item" routerLink="/contactus">Contact Us</a></li>
+            <li><a class="dropdown-item" routerLink="/faqs">FAQs</a></li>
+          </ul>
+        </nav>
+        <nav class="sub-nav">
+          <a class="text-black hover:text-gray-900" id="pagesDropdown" role="button">Support</a>
+          <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <li><a class="dropdown-item" href="#">No</a></li>
+            <li><a class="dropdown-item" href="#">Yes</a></li>
+            <li><a class="dropdown-item" href="#">Maybe</a></li>
+          </ul>
+        </nav>
+        <span class="text-black">+254728 611 586</span>
       </nav>
+
+
       
-      <button class="inline-flex items-center bg-blue-500 text-black py-1 px-3 hover:bg-blue-600 rounded text-base mt-4 md:mt-0">
+      <button class="inline-flex items-center bg-green-500 text-black py-1 px-3 hover:bg-blue-600 rounded text-base mt-4 md:mt-0">
         Buy Now
         <svg class="w-4 h-4 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M5 12h14M12 5l7 7-7 7"></path>

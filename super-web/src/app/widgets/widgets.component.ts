@@ -1,7 +1,22 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { Component, Inject, OnInit, OnDestroy, PLATFORM_ID } from '@angular/core';
 import { Router } from '@angular/router';
+import { ProductsService } from '../services/products.service';
 
+interface hero{
+  url: string
+}
+interface product {
+  title: string;
+  description: string;
+  image: string;
+  hoverImage: string;
+}
+interface card{
+  title: string;
+  description: string;
+  image: string
+}
 @Component({
   selector: 'app-widgets',
   standalone: true,
@@ -10,35 +25,36 @@ import { Router } from '@angular/router';
   styleUrls: ['./widgets.component.css']
 })
 export class WidgetsComponent implements OnInit, OnDestroy {
-
-  product = {
-    title: '',
-    description: 'This is a detailed description of the product, explaining its features and benefits.',
-    image: '/assets/sample-product.jpg'
-  };
-
+  hoveredIndex: number = -1;
+  products: product[] = [];
   currentSlideIndex = 0;
-  heroImages = [
-    { url: '/images/slide1.jpg' },
-    { url: '/images/slide2.jpg' },
-    { url: '/images/slide3.jpg' },
-    {url: '/images/slide4.jpg'},
-    {url: '/images/slide5.jpg'}
-  ];
-  cards = [
-    { title: 'Printing', description: 'High-quality printing services to meet all your needs.', image: '/images/logo.jpg' },
-    { title: 'Designing', description: 'Creative and professional design solutions for your brand.', image: '/images/design.jpg' },
-    { title: 'Branding', description: 'Effective branding strategies to enhance your business presence.', image: '/images/branding.jpg' },
-    { title: 'Own Work', description: 'Providing high-quality, creative design and printing solutions tailored to your specifications.', image: '/images/works.jpg' }
-  ];
+  heroImages: hero[] = []
+  cards:card[] = [];
   private intervalId: any;
 
   constructor(
     private router: Router,
+    private productService: ProductsService,
      @Inject(PLATFORM_ID) private platformId: object,
     ) {}
 
   ngOnInit(): void {
+    this.productService.getProducts().subscribe((cards) => {
+      this.cards = cards;
+      console.log(cards)
+    });
+
+    this.productService.getCards().subscribe((products) => {
+      this.products = products;
+      console.log(products)
+    });
+
+    this.productService.getImages().subscribe((heroImages) => {
+      this.heroImages = heroImages;
+      console.log(heroImages)
+    });
+    
+    
     if (isPlatformBrowser(this.platformId)) {
       // Only run setInterval in the browser, not during SSR
       this.intervalId = setInterval(() => {
@@ -57,8 +73,8 @@ export class WidgetsComponent implements OnInit, OnDestroy {
     this.router.navigate(['/services']);
   }
 
- addToCart() {
-    console.log('Product added to cart');
+ addToCart(product: product) {
+    console.log('${product.title} added to cart', product);
   }
 
 }

@@ -2,23 +2,23 @@
   <div class="card">
     <h1>ErCreations </h1>
     <div class="cont">
-      <div class="form sign-in">
+      <form [formGroup]="loginform" class="form sign-in" (ngSubmit)="onSubmit()">
         <h2><em>Welcome To ErCreations!</em></h2>
         <h1>Please enter your Email Address Below to Sign Up</h1>
         <label>
           <span>Email Address</span>
-          <input type="email" />
+          <input type="email" formControlName="email" />
         </label>
         <label>
           <span>Create Your Password</span>
-          <input type="password" />
+          <input type="password" formControlName="password" />
         </label>
         <label>
         <span>Confirm Your Password</span>
         <input type="password" />
         </label>
-        <button type="button" class="signup">Sign up</button>
-      </div>
+        <button type="submit" class="signup">Sign up</button>
+      </form>
     </div>
   </div>
 </div>

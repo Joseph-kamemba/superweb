@@ -1,0 +1,118 @@
+{
+    "products": [
+
+      { 
+        "title": "Printing", 
+        "description": "High-quality printing services to meet all your needs.", 
+        "image": "/images/logo.jpg" 
+      },
+      { 
+        "title": "Designing", 
+        "description": "Creative and professional design solutions for your brand.", 
+        "image": "/images/design.jpg" 
+      },
+      { 
+        "title": "Branding", 
+        "description": "Effective branding strategies to enhance your business presence.", 
+        "image": "/images/branding.jpg" 
+      },
+      { 
+        "title": "Own Work", 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/works.jpg" 
+      }
+    ],
+      
+        "users": [
+          {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "password": "password123",
+            "role": "Admin",
+            "profileImage": "/images/user1.jpg"
+          },
+          {
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "password": "designer456",
+            "role": "Designer",
+            "profileImage": "/images/user2.jpg"
+          },
+          {
+            "name": "Michael Johnson",
+            "email": "michael.johnson@example.com",
+            "password": "printer789",
+            "role": "Printer",
+            "profileImage": "/images/user3.jpg"
+          },
+          {
+            "name": "Emily Davis",
+            "email": "emily.davis@example.com",
+            "password": "customer101",
+            "role": "Customer",
+            "profileImage": "/images/user4.jpg"
+          }
+        ] ,    
+  
+  
+    "heroImages": [
+      { "url": "/images/slide1.jpg" },
+      { "url": "/images/slide2.jpg" },
+      { "url": "/images/slide3.jpg" },
+      { "url": "/images/slide4.jpg" },
+      { "url": "/images/slide5.jpg" }
+    ],
+
+    "cards": [
+      {
+        "title": "Our Designs",
+        "description": " Our design service offers unique, tailor-made solutions that enhance brand identity, using a creative and strategic approach. We specialize in professional logo design, brochures, and digital graphics to make your business stand out. With a commitment to innovation, our designs are crafted with precision and artistic vision.",
+        "image": "/images/slide13.jpg",
+        "hoverImage": "/images/slide4.jpg"
+      },
+      {
+        "title": "Our Printing",
+        "description": "We provide high-quality printing services for all your business needs, from business cards to large format prints. Our advanced technology ensures vibrant colors and sharp details, delivering professionally printed materials that leave a lasting impression. Each project is handled with care and expertise, guaranteeing top-notch results.",
+        "image": "/images/slide8.jpg",
+         "hoverImage": "/images/slide9.jpg"
+      },
+      {
+        "title": "Our Branding",
+        "description": "Our branding solutions are designed to create a cohesive and impactful brand presence. From concept to execution, we offer professional services that include brand strategy, identity development, and brand collateral. We bring brands to life with a focus on consistency, ensuring your business is memorable and resonates with your audience.",
+        "image": "/images/slide12.jpg",
+        "hoverImage": "/images/slide1.jpg"
+      },
+      {
+        "title": "Stickers",
+        "description": " Our sticker production is fast, precise, and customizable, catering to both personal and business needs. Whether it's promotional stickers, decals, or labels, we deliver professional-grade, durable products with crisp graphics and colors. We ensure each sticker reflects your brand with quality and attention to detail.",
+        "image": "/images/slide16.jpg",
+         "hoverImage": "/images/slide15.jpg"
+      },
+      {
+        "title": "More For You!",
+        "description": "Discover even more exciting products and services we have in store for you! From unique designs to high-quality prints and branding solutions, our collection is sure to impress. Stay tuned for exclusive updates and special offers tailored just for you. Your next favorite find is just around the corner!",
+        "image": "/images/slide17.jpg",
+         "hoverImage": "/images/slide18.jpg"
+      }
+    ],
+
+    "widgets": [
+      {
+        "title": "Our Mission",
+        "description": " Our design service offers unique, tailor-made solutions that enhance brand identity, using a creative and strategic approach. We specialize in professional logo design, brochures, and digital graphics to make your business stand out. With a commitment to innovation, our designs are crafted with precision and artistic vision.",
+        "image": "/images/slide21.jpg"
+      },
+      {
+        "title": "Our Vision",
+        "description": "We provide high-quality printing services for all your business needs, from business cards to large format prints. Our advanced technology ensures vibrant colors and sharp details, delivering professionally printed materials that leave a lasting impression. Each project is handled with care and expertise, guaranteeing top-notch results.",
+        "image": "/images/slide20.jpg"
+      },
+      {
+        "title": "The Founder ",
+        "description": "Our branding solutions are designed to create a cohesive and impactful brand presence. From concept to execution, we offer professional services that include brand strategy, identity development, and brand collateral. We bring brands to life with a focus on consistency, ensuring your business is memorable and resonates with your audience.",
+        "image": "/images/slide25.jpg"  }
+
+    ]
+  
+}
+  

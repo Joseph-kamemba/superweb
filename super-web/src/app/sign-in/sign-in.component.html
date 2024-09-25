@@ -1,23 +1,32 @@
 <div class="center-container">
   <div class="card">
-    <h1>ErCreations </h1>
+    <h1>ErCreations</h1>
     <div class="cont">
-      <div class="form sign-in">
-        <h2><em>Welcome back!</em></h2>
-        <label>
-          <span>Email</span>
-          <input type="email" />
-        </label>
-        <label>
-          <span>Password</span>
-          <input type="password" />
-        </label>
-        <p (click)="openConfirmDialog()" class="forgot-pass">Forgot password?</p>
-        <button type="button" class="submit">Sign In</button>
-        <p><strong>New member?</strong></p>
-        <p>Click the button below to Sign Up</p>
-        <button type="button" class="signup" (click)="navigateToSignUp()">Sign up</button>
-      </div>
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <div class="form sign-in">
+          <h2><em>Welcome back!</em></h2>
+          <label>
+            <span>Email</span>
+            <input type="email" formControlName="email" />
+            <div *ngIf="signupForm.get('email')?.touched && signupForm.get('email')?.invalid">
+              <small *ngIf="signupForm.get('email')?.errors?.['required']">Email is required</small>
+              <small *ngIf="signupForm.get('email')?.errors?.['email']">Invalid email address</small>
+            </div>
+          </label>
+          <label>
+            <span>Password</span>
+            <input type="password" formControlName="password" />
+            <div *ngIf="signupForm.get('password')?.touched && signupForm.get('password')?.invalid">
+              <small *ngIf="signupForm.get('password')?.errors?.['required']">Password is required</small>
+            </div>
+          </label>
+          <p (click)="openConfirmDialog()" class="forgot-pass">Forgot password?</p>
+          <button type="submit" class="submit" (click)="navigateToWidgets()" [disabled]="signupForm.invalid">Sign In</button>
+          <p><strong>New member?</strong></p>
+          <p>Click the button below to Sign Up</p>
+          <button type="button" class="signup" (click)="navigateToSignUp()">Sign up</button>
+        </div>
+      </form>
     </div>
   </div>
 </div>
