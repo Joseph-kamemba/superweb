@@ -1,0 +1,17 @@
+matInput Placeholder{
+color: black;
+}
+/* CSS Styles to enforce black placeholder */
+::ng-deep input::placeholder {
+    color: black !important;
+    opacity: 1; /* Ensure the placeholder is fully opaque */
+  }
+
+/* Optional: Handle Material-specific placeholder styling */
+::ng-deep .mat-form-field-label {
+  color: black;
+}
+.mat-elevation-z8{
+  margin-top: 25px;
+}
+  

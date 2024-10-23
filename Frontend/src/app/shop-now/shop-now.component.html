@@ -1,0 +1,91 @@
+<div class="hero-section">
+    <div class="slideshow">
+      <div *ngFor="let shop of shopImages; let i = index" 
+           [ngClass]="{'active-slide': currentSlideIndex === i}" 
+           class="slide" 
+           [ngStyle]="{'background-image': 'url(' + shop.url + ')'}">
+      </div>
+    </div>
+    <div class="hero-content text-center">
+      <h1 class="hero-title">New Arrivals</h1>
+      <p class="hero-subtitle">Keeping you upto Date with our Unique designs,<br> just for you!!</p>
+    </div>
+  </div>
+  <div class="container-fluid1">
+  <h2 class="fashion">Unleash Your Inner Fashionista</h2> 
+  <div class="grid">
+    <div class="grid-item">
+      <h2 class="color-pickers">Colors</h2>
+        <div class="color-selection">
+            <span class="color-circle" style="background-color: #ff0000;" (click)="selectColor('#ff0000')"></span>
+            <span class="color-circle" style="background-color: #00ff00;" (click)="selectColor('#00ff00')"></span>
+            <span class="color-circle" style="background-color: #0000ff;" (click)="selectColor('#0000ff')"></span>
+            <span class="color-circle" style="background-color: #ffff00;" (click)="selectColor('#ffff00')"></span>
+            <span class="color-circle" style="background-color: #ff00ff;" (click)="selectColor('#ff00ff')"></span>
+            <span class="color-circle" style="background-color: #00ffff;" (click)="selectColor('#00ffff')"></span>
+            <span class="color-circle" style="background-color: #000000;" (click)="selectColor('#000000')"></span> 
+            <span class="color-circle" style="background-color: #FFFFFF;" (click)="selectColor('#FFFFFF')"></span> 
+            <span class="color-circle" style="background-color: #800000;" (click)="selectColor('#800000')"></span>
+            <span class="color-circle" style="background-color: #FFC0CB;" (click)="selectColor('#FFC0CB')"></span> 
+            <span class="color-circle" style="background-color: #87CEEB;" (click)="selectColor('#87CEEB')"></span> 
+        </div>
+       <h3 class="price-selector">Select Price</h3>
+        <mat-slider min="0" max="2500" 
+        step="100"
+         showTickMarks
+         discrete [displayWith]="formatLabel">
+          <input matSliderStartThumb>
+          <input value="2500" matSliderEndThumb>
+        </mat-slider>
+        <section class="example-section" [formGroup]="toppings">
+          <h5>Select your size:</h5>
+          <p class="checkbox-item"><mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox></p>
+          <p class="checkbox-item"><mat-checkbox formControlName="extracheese">Extra Cheese</mat-checkbox></p>
+          <p class="checkbox-item"><mat-checkbox formControlName="mushroom">Mushroom</mat-checkbox></p>
+        </section>
+        
+        <section class="example-section" [formGroup]="toppings">
+          <h4>You chose:</h4>
+          {{toppings.value | json}}
+        </section>
+
+        <h3 class="price-selector">Product Type</h3>
+        <section class="product-section" [formGroup]="productTypes">
+          <h5 class="type-section">Select the type of a product:</h5>
+          <p class="checkbox-item"><mat-checkbox formControlName="tshirts">T-shirts</mat-checkbox></p>
+          <p class="checkbox-item"><mat-checkbox formControlName="hoodies">Hoodies</mat-checkbox></p>
+          <p class="checkbox-item"><mat-checkbox formControlName="caps">Caps</mat-checkbox></p>
+          <p class="checkbox-item"><mat-checkbox formControlName="stickers">Stickers</mat-checkbox></p>
+        </section>
+    </div>
+    <div class="row">
+        <div class="col-md-6 " *ngFor="let arrival of arrivals">
+          <div class="card text-white custom-card" [ngStyle]="{'background-image': 'url(' + arrival.image + ')'}">         
+             <div class="card-img-overlay d-flex justify-content-center align-items-center">
+              <div class="text-center">
+                <div class="icon-container" >
+                  <div class="icon-wrapper">
+                  <i class="fas fa-shopping-cart cart-icon"></i> 
+                  <span class="hover-text">Quick Shop</span>
+                  </div>
+                  <div class="icon-wrapper">
+                  <i class="fas fa-search quick-view-icon"></i>  
+                  <span class="hover-text">Quick View</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Product Description and Price-->
+            <div class="card-body" *ngIf="arrival">
+              <div class="frame">
+                <h5 class="card-name">{{arrival.name}}</h5>
+                <p class="card-text" style="color:black">{{arrival.description}}</p>
+                <h6 class="card-price" style="color:black">{{arrival.price}}</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+   

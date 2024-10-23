@@ -1,0 +1,69 @@
+<div class="header-container">
+  <header class="header">
+    <div class="header-content">
+      <a class="logo" href="#">
+        <img src="/images/identity.jpg" alt="Icon" class="logo-img">
+        <span class="logo-text">Creations</span>
+      </a>
+
+      <nav class="main-nav">
+        <div class="sub-nav">
+          <a class="nav-link">Home</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/widgets">Home-Default</a></li>
+            <li><a class="dropdown-item" routerLink="/homebrands">Home-Brands</a></li>
+            <li><a class="dropdown-item" href="#">Home-Designs</a></li>
+            <li><a class="dropdown-item" href="#">Home-Prints</a></li>
+            <li><a class="dropdown-item" href="#">Home-Stickers</a></li>
+          </ul>
+        </div>
+
+        <div class="sub-nav">
+          <a class="nav-link">Shop</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">No</a></li>
+            <li><a class="dropdown-item" href="#">Yes</a></li>
+            <li><a class="dropdown-item" href="#">Maybe</a></li>
+          </ul>
+        </div>
+
+        <div class="sub-nav">
+          <a class="nav-link">News</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Cups/Mugs</a></li>
+            <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+            <li><a class="dropdown-item" href="#">Stickers</a></li>
+            <li><a class="dropdown-item" href="#">Hoodies</a></li>
+          </ul>
+        </div>
+
+        <div class="sub-nav">
+          <a class="nav-link">Pages</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/aboutus">About Us</a></li>
+            <li><a class="dropdown-item" routerLink="/contactus">Contact Us</a></li>
+            <li><a class="dropdown-item" routerLink="/faqs">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="sub-nav">
+          <a class="nav-link">Support</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">No</a></li>
+            <li><a class="dropdown-item" href="#">Yes</a></li>
+            <li><a class="dropdown-item" href="#">Maybe</a></li>
+          </ul>
+        </div>
+
+        <span class="contact-number">+254728 611 586</span>
+      </nav>
+
+      <div class="cart-icon">
+        <span class="material-icons" (click)="openShoppingCart()">shopping_cart</span>
+        <span class="cart-count" (click)="openShoppingCart()">{{ cartItemCount }}</span>
+      </div>
+
+      <button class="buy-now-btn" (click)="navigateToShopNow()">Buy Now</button>
+    </div>
+  </header>
+</div>

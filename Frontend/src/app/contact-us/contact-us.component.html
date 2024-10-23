@@ -1,0 +1,83 @@
+<h1 class="contact-title">Contact Us</h1>
+<p class="intro-words">
+    Get in touch and let us know how we can help. Have a question but aren’t 
+    sure who to contact? Get in touch and a member of our team will reach out to you.
+</p>
+
+<div class="container">
+  <div class="row">
+    <!-- Form Column -->
+    <div class="col-md-9 reduced-height">
+      <form [formGroup]="userForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" formControlName="name" 
+          placeholder="Enter your name" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="name" class="form-label">Email</label>
+          <input type="text" class="form-control" formControlName="email" 
+          placeholder="Enter your email address" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="name" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" formControlName="phoneNumber" 
+          placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="name" class="form-label">Subject</label>
+          <input type="text" class="form-control" formControlName="subject" 
+          placeholder="Enter the subject matter" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="name" class="form-label">Message</label>
+          <input type="text" class="form-control" formControlName="message" 
+          placeholder="Describe your issue" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary" (click)="onSendComments()">Send</button>
+      </form>
+    </div>
+
+    <!-- Address Column -->
+    <div class="col-md-3" >
+      <h5 class="address-heading">
+        Our Address</h5>
+      <p>1234 Your Street, Your City, Your Country</p>
+      <p>Email: contactercreations.com</p>
+      <p>Phone: +123 456 7890</p>
+      <h5 class="open-hrs">
+        Opening Hours
+    </h5>
+        <p> We Are Open on a 24/7 basis
+            From Mon-Sun</p>
+
+            <h5 class="stay-connected">Stay Connected</h5>
+            <div class="social-icons">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/your-facebook-profile" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                
+                <!-- X (Twitter) -->
+                <a href="https://www.twitter.com/your-twitter-profile" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            
+                <!-- Pinterest -->
+                <a href="https://www.pinterest.com/your-pinterest-profile" target="_blank">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/your-instagram-profile" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,76 @@
+.bg-maroon {
+  background: linear-gradient(180deg, rgb(241, 235, 235) 0%, rgba(244, 247, 245, 0.7) 70%, rgba(248, 247, 250, 0.4) 100%);
+  padding: 10px; /* Optional padding */
+  }
+
+  /* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer Styles */
+.footer-container {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #808080;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+}
+
+.copyright {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #6b7280;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+  

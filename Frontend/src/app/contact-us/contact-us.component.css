@@ -1,0 +1,85 @@
+
+.contact-title{
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.intro-words{
+color: black;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 20px;
+display: flex;
+}
+.form-label{
+    color: black;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+
+  .col-md-3{
+    color: black;
+    margin-top: 20px;
+
+  }
+  .open-hrs{
+    font-weight: bolder;
+    padding-top: 15px;
+    font-size: small;
+  }
+
+  .reduced-height{
+    padding: 5px;
+    max-height: 300px;
+   
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+  }
+  .reduced-height h1, .reduced-height p {
+    margin: 4px 0;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .address-heading{
+    color: black;
+    font-weight: bolder;
+    font-size: small;
+  }
+  .stay-connected{
+    font-weight: bolder;
+    padding-top: 5px;
+    font-size: small;
+  }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #333; /* Default icon color */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+
+  

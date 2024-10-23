@@ -1,0 +1,379 @@
+{
+    "products": [
+
+      { 
+        "title": "Printing", 
+        "description": "High-quality printing services to meet all your needs.", 
+        "image": "/images/logo.jpg" 
+      },
+      { 
+        "title": "Designing", 
+        "description": "Creative and professional design solutions for your brand.", 
+        "image": "/images/design.jpg" 
+      },
+      { 
+        "title": "Branding", 
+        "description": "Effective branding strategies to enhance your business presence.", 
+        "image": "/images/branding.jpg" 
+      },
+      { 
+        "title": "Own Work", 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/works.jpg" 
+      }
+    ],
+
+    "brands": [
+
+      { 
+        "description": "High-quality printing services to meet all your needs.", 
+        "image": "/images/slide21.jpg" 
+      },
+      { 
+        "description": "Creative and professional design solutions for your brand.", 
+        "image": "/images/slide22.jpg" 
+      },
+      { 
+        "description": "Effective branding strategies to enhance your business presence.", 
+        "image": "/images/slide23.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide11.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide15.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide27.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide17.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide12.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide6.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide9.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide16.jpg" 
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/slide26.jpg" 
+      }
+    ],
+    
+    
+      
+        "users": [
+          {
+            "firstName": "John Doe",
+            "secondName": "john.doe@example.com",
+            "phoneNumber": "password123",
+            "emailAddress": "Admin",
+            "idNumber": "/images/user1.jpg",
+            "residence": "kisii",
+            "gender": "male"
+          },
+          {
+            "firstName": "John Doe",
+            "secondName": "john.doe@example.com",
+            "phoneNumber": "password123",
+            "emailAddress": "Admin",
+            "idNumber": "/images/user1.jpg",
+            "residence": "kisii",
+            "gender": "male"
+          },
+          {
+            "firstName": "John Doe",
+            "secondName": "john.doe@example.com",
+            "phoneNumber": "password123",
+            "emailAddress": "Admin",
+            "idNumber": "/images/user1.jpg",
+            "residence": "kisii",
+            "gender": "male"
+          },
+          {
+            "firstName": "John Doe",
+            "secondName": "john.doe@example.com",
+            "phoneNumber": "password123",
+            "emailAddress": "Admin",
+            "idNumber": "/images/user1.jpg",
+            "residence": "kisii",
+            "gender": "male"
+          },
+          {
+            "firstName": "John Doe",
+            "secondName": "john.doe@example.com",
+            "phoneNumber": "password123",
+            "emailAddress": "Admin",
+            "idNumber": "/images/user1.jpg",
+            "residence": "kisii",
+            "gender": "male"
+          },
+          {
+            "firstName": "John Doe",
+            "secondName": "john.doe@example.com",
+            "phoneNumber": "password123",
+            "emailAddress": "Admin",
+            "idNumber": "/images/user1.jpg",
+            "residence": "kisii",
+            "gender": "male"
+          }
+          
+        ] ,    
+  
+  
+    "heroImages": [
+      { "url": "/images/slide1.jpg" },
+      { "url": "/images/slide2.jpg" },
+      { "url": "/images/slide3.jpg" },
+      { "url": "/images/slide4.jpg" },
+      { "url": "/images/slide5.jpg" }
+    ],
+
+    "cards": [
+      {
+        "title": "Our Designs",
+        "description": " Our design service offers unique, tailor-made solutions that enhance brand identity, using a creative and strategic approach. We specialize in professional logo design, brochures, and digital graphics to make your business stand out. With a commitment to innovation, our designs are crafted with precision and artistic vision.",
+        "image": "/images/slide13.jpg",
+        "hoverImage": "/images/slide4.jpg"
+      },
+      {
+        "title": "Our Printing",
+        "description": "We provide high-quality printing services for all your business needs, from business cards to large format prints. Our advanced technology ensures vibrant colors and sharp details, delivering professionally printed materials that leave a lasting impression. Each project is handled with care and expertise, guaranteeing top-notch results.",
+        "image": "/images/slide8.jpg",
+         "hoverImage": "/images/slide9.jpg"
+      },
+      {
+        "title": "Our Branding",
+        "description": "Our branding solutions are designed to create a cohesive and impactful brand presence. From concept to execution, we offer professional services that include brand strategy, identity development, and brand collateral. We bring brands to life with a focus on consistency, ensuring your business is memorable and resonates with your audience.",
+        "image": "/images/slide12.jpg",
+        "hoverImage": "/images/slide1.jpg"
+      },
+      {
+        "title": "Stickers",
+        "description": " Our sticker production is fast, precise, and customizable, catering to both personal and business needs. Whether it's promotional stickers, decals, or labels, we deliver professional-grade, durable products with crisp graphics and colors. We ensure each sticker reflects your brand with quality and attention to detail.",
+        "image": "/images/slide16.jpg",
+         "hoverImage": "/images/slide15.jpg"
+      },
+      {
+        "title": "More For You!",
+        "description": "Discover even more exciting products and services we have in store for you! From unique designs to high-quality prints and branding solutions, our collection is sure to impress. Stay tuned for exclusive updates and special offers tailored just for you. Your next favorite find is just around the corner!",
+        "image": "/images/slide17.jpg",
+         "hoverImage": "/images/slide18.jpg"
+      }
+    ],
+
+    "widgets": [
+      {
+        "title": "Our Mission",
+        "description": " Our design service offers unique, tailor-made solutions that enhance brand identity, using a creative and strategic approach. We specialize in professional logo design, brochures, and digital graphics to make your business stand out. With a commitment to innovation, our designs are crafted with precision and artistic vision.",
+        "image": "/images/slide21.jpg"
+      },
+      {
+        "title": "Our Vision",
+        "description": "We provide high-quality printing services for all your business needs, from business cards to large format prints. Our advanced technology ensures vibrant colors and sharp details, delivering professionally printed materials that leave a lasting impression. Each project is handled with care and expertise, guaranteeing top-notch results.",
+        "image": "/images/slide20.jpg"
+      },
+      {
+        "title": "The Founder ",
+        "description": "Our branding solutions are designed to create a cohesive and impactful brand presence. From concept to execution, we offer professional services that include brand strategy, identity development, and brand collateral. We bring brands to life with a focus on consistency, ensuring your business is memorable and resonates with your audience.",
+        "image": "/images/slide25.jpg"  }
+
+    ],
+  
+    "homeImages": [
+      { "url": "/images/slide15.jpg" },
+      { "url": "/images/slide16.jpg" },
+      { "url": "/images/slide19.jpg" },
+      { "url": "/images/slide10.jpg" },
+      { "url": "/images/slide13.jpg" }
+    ],
+
+    "shopImages": [
+      { "url": "/images/shop3.jpg" },
+      { "url": "/images/shop6.jpg" },
+      { "url": "/images/shop12.jpg" },
+      { "url": "/images/shop14.jpg" },
+      { "url": "/images/shop20.jpg" },
+      { "url": "/images/shop21.jpg" },
+      { "url": "/images/shop24.jpg" },
+      { "url": "/images/shop39.jpg" },
+      { "url": "/images/shop41.jpg" }
+    ],
+
+    "arrivals": [
+
+      { 
+        "description": "High-quality printing services to meet all your needs.", 
+        "image": "/images/shop1.jpg" ,
+        "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Creative and professional design solutions for your brand.", 
+        "image": "/images/shop4.jpg",
+        "name": "Lame Design",
+        "price": "Ksh. 600" 
+      },
+      { 
+        "description": "Effective branding strategies to enhance your business presence.", 
+        "image": "/images/shop6.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop7.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop8.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop10.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop15.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop16.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop17.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop18.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop30.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop29.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop28.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop27.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop26.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop25.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop22.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop31.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop32.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop34.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop35.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop37.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop38.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop40.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+        "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+        "image": "/images/shop41.jpg" ,
+         "name": "Lame Design",
+        "price": "Ksh. 600"
+      },
+      { 
+         "description": "Providing high-quality, creative design and printing solutions tailored to your specifications.", 
+         "image": "/images/shop42.jpg" ,
+         "name": "Lame Design",
+          "price": "Ksh. 600"
+      }
+    ]
+    
+}
+  

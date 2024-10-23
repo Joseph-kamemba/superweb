@@ -1,0 +1,27 @@
+<div class="hero-section">
+    <div class="slideshow">
+      <div *ngFor="let home of homeImages; let i = index" 
+           [ngClass]="{'active-slide': currentSlideIndex === i}" 
+           class="slide" 
+           [ngStyle]="{'background-image': 'url(' + home.url + ')'}">
+      </div>
+    </div>
+    <div class="hero-content text-center">
+      <h1 class="hero-title">Continue Branding, designing and<br> printing with us!!</h1>
+      <p class="hero-subtitle">Crafting Unique Designs, Building Strong Brands, Delivering Quality Prints</p>
+      <button class="btn btn-primary bottom-button" (click)="navigateToShopNow()">Shop Now!!</button>
+    </div>
+  </div>
+  <div class="container-fluid1"></div>
+  <h2 class="fashion">Unleash Your Inner Fashionista</h2>
+    <div class="row">
+      <div class="col-md-6" *ngFor="let brand of brands">
+        <div class="card text-white custom-card" [ngStyle]="{'background-image': 'url(' + brand.image + ')'}">          <div class="card-img-overlay d-flex justify-content-center align-items-center">
+            <div class="text-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+   
