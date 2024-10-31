@@ -31,7 +31,20 @@ public ResponseEntity<UsersModel> createUser(@RequestBody AddUserRequest user) {
     public record AddUserRequest(String name,
                                  String email,
                                  String phoneNumber,
+                                 String password,
                                  String subject,
                                  String message){}
+
+
+    @GetMapping("getUsers")
+    public ResponseEntity<List<UsersModel>> fetchAllUsers(){
+        return ResponseEntity.ok(usersService.fetchAllUsers());
+    }
+
+//    @GetMapping("/getUsers/{username}")
+//    public ResponseEntity<UsersModel> getUserByUsername(@PathVariable String username) {
+//        UsersModel user = usersService.fetchByUsername(username);
+//        return ResponseEntity.ok(user);
+//    }
 }
 
